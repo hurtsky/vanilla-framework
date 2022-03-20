@@ -1,6 +1,8 @@
-// Import the theme
-@import 'vanilla-framework';
-@include vanilla;
+// Override default Vanilla settings in your main Sass file
+$color-brand: rgb(51, 41, 143);
 
-// Optionally override some settings
-// $color-brand: #ffffff;
+// Import Vanilla framework
+@import 'vanilla-framework';
+
+// Include all of Vanilla Framework
+@include vanilla;
