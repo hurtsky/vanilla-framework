@@ -1,41 +1,35 @@
 {% extends "_layouts/examples.html" %}
-{% block title %}Tab Buttons (deprecated) / Icons{% endblock %}
+{% block title %}Segmented control / Default{% endblock %}
 
 {% block standalone_css %}patterns_segmented-control{% endblock %}
 
 {% block content %}
 
-<div class="p-tab-buttons">
-  <div class="p-tab-buttons__list" role="tablist" aria-label="Juju technology">
+<div class="p-segmented-control">
+  <div class="p-segmented-control__list" role="tablist" aria-label="Juju technology">
     <button
-      class="p-tab-buttons__button"
+      class="p-segmented-control__button"
       role="tab" 
       aria-selected="true" 
       aria-controls="olm-tab" 
       id="olm"
-    >
-      <i class="p-icon--information"></i><span>OLM</span>
-    </button>
+    >OLM</button>
     <button
-      class="p-tab-buttons__button"
+      class="p-segmented-control__button"
       role="tab"
       aria-selected="false"
       aria-controls="operator-tab"
       id="operator" 
       tabindex="-1"
-    >
-      <i class="p-icon--information"></i><span>SDK</span>
-    </button>
+    >SDK</button>
     <button
-      class="p-tab-buttons__button"
+      class="p-segmented-control__button"
       role="tab"
       aria-selected="false"
       aria-controls="charmhub-tab"
       id="charmhub"
       tabindex="-1"
-    >
-      <i class="p-icon--information"></i><span>Charmhub</span>
-    </button>
+    >Charmhub</button>
   </div>
 </div>
 
