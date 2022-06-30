@@ -20,23 +20,14 @@ When we add, make significant updates, or deprecate a component we update their 
     </tr>
   </thead>
   <tbody>
-    <!-- 3.3.1 -->
+    <!-- 3.6.0 -->
     <tr>
-      <th><a href="/docs/patterns/accordion">Accordion</a></th>
+      <th><a href="/docs/patterns/badge">Badge</a></th>
       <td>
-        <span class="p-status-label--information">Updated</span>
+        <span class="p-status-label--positive">New</span>
       </td>
-      <td>3.2.1</td>
-      <td>We changed the icon of the accordion tab.</td>
-    </tr>
-    <!-- 3.3.0 -->
-    <tr>
-      <th><a href="/docs/patterns/segmented-control">Segmented control</a></th>
-      <td>
-        <span class="p-status-label--information">New</span>
-      </td>
-      <td>3.3.0</td>
-      <td>The Tab buttons component has been renamed to Segmented control</td>
+      <td>3.6.0</td>
+      <td>We've added a badge component.</td>
     </tr>
   </tbody>
 </table>
@@ -53,6 +44,73 @@ When we add, make significant updates, or deprecate a component we update their 
     </tr>
   </thead>
   <tbody>
+    <!-- 3.5.0 -->
+    <tr>
+      <th><a href="/docs/patterns/navigation#side-navigation">Side navigation - Headings</a></th>
+      <td>
+        <span class="p-status-label--information">Updated</span>
+      </td>
+      <td>3.5.0</td>
+      <td>We've added a new <code>p-side-navigation__heading</code> and <code>p-side-navigation__heading--linked</code> classes to allow adding headings for side navigation item groups.</td>
+    </tr>
+    <!-- 3.4.0 -->
+     <tr>
+      <th><a href="/docs/patterns/pagination">Pagination</a></th>
+      <td>
+        <span class="p-status-label--negative">Deprecated</span>
+      </td>
+      <td>3.4.0</td>
+      <td>We've deprecated the use of the <code>p-navigation</code> class on lists, the class should now be used on the wrapping nav only.</td>
+    </tr>
+    <tr>
+      <th><a href="/docs/patterns/pagination">Pagination</a></th>
+      <td>
+        <span class="p-status-label--information">Updated</span>
+      </td>
+      <td>3.4.0</td>
+      <td>We've added a new <code>p-pagination__items</code> class name to the list and moved the <code>p-pagination</code> class to the nav element.</td>
+    </tr>
+    <!-- 3.3.0 -->
+    <tr>
+      <th><a href="/docs/patterns/navigation#side-navigation">Side navigation</a></th>
+      <td>
+        <span class="p-status-label--information">Updated</span>
+      </td>
+      <td>3.3.0</td>
+      <td>We've made some changes to the side navigation, improving accessibility and renaming some classes.</td>
+    </tr>
+    <tr>
+      <th><a href="/docs/patterns/navigation#side-navigation">Side navigation</a></th>
+      <td>
+        <span class="p-status-label--negative">Deprecated</span>
+      </td>
+      <td>3.3.0</td>
+      <td>We've updated the class names in the side navigation. <code>.is-expanded</code> and <code>.is-collapsed</code> are deprecated and replaced by <code>.is-drawer-expanded</code> and <code>.is-drawer-expanded</code>.</td>
+    </tr>
+    <tr>
+      <th><a href="/docs/patterns/accordion">Accordion</a></th>
+      <td>
+        <span class="p-status-label--information">Updated</span>
+      </td>
+      <td>3.3.0</td>
+      <td>We updated the Accordion icon to a chevron which animates on open and close.</td>
+    </tr>
+    <tr>
+      <th><a href="/docs/patterns/segmented-control">Segmented control</a></th>
+      <td>
+        <span class="p-status-label--positive">New</span>
+      </td>
+      <td>3.3.0</td>
+      <td>The Tab buttons component has been renamed to Segmented control.</td>
+    </tr>
+        <tr>
+      <th><a href="/docs/patterns/segmented-control">Tab buttons</a></th>
+      <td>
+        <span class="p-status-label--negative">Deprecated</span>
+      </td>
+      <td>3.3.0</td>
+      <td><code>p-tab-buttons</code> has been renamed to <code>p-segmented-control</code>.</td>
+    </tr>
     <!-- 3.2.0 -->
     <tr>
       <th><a href="/docs/patterns/navigation#expanding-search-box">Navigation - Search</a></th>

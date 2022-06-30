@@ -171,14 +171,14 @@ $list-status-icon-nudge: 0.3rem; // 0.3rem seems to be a magic number that posit
 
     .p-inline-list__item {
       @include vf-inline-list-item;
-
+      margin-right: $sph--small;
       position: relative;
 
       &::after {
         content: '\2022';
         line-height: map-get($line-heights, default-text);
-        position: absolute;
-        right: -$sp-unit;
+        position: relative;
+        right: -0.25rem;
       }
 
       &:last-of-type,
