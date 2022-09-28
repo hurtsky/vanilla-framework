@@ -64,13 +64,7 @@ $application-layout--side-nav-width-expanded: 15rem !default;
   // Navigation panel/drawer
   // -------------------------
   .l-navigation {
-    @include vf-animation(
-      $property: (
-        transform,
-        box-shadow,
-      ),
-      $duration: fast
-    );
+    @include vf-transition($property: #{transform, box-shadow}, $duration: fast);
 
     bottom: 0;
     box-shadow: $panel-drop-shadow;
@@ -117,13 +111,7 @@ $application-layout--side-nav-width-expanded: 15rem !default;
     }
 
     .l-navigation {
-      @include vf-animation(
-        $property: (
-          width,
-          box-shadow,
-        ),
-        $duration: fast
-      );
+      @include vf-transition($property: #{width, box-shadow}, $duration: fast);
 
       box-shadow: $panel-drop-shadow-transparent;
       overflow: hidden;
@@ -182,7 +170,7 @@ $application-layout--side-nav-width-expanded: 15rem !default;
   %vf-application-layout--faded-when-collapsed {
     // when app navigation panel is collapsed, fade out unnecessary elements
     @include vf-application-layout--when-collapsed() {
-      @include vf-animation($property: opacity, $duration: snap);
+      @include vf-transition($property: opacity, $duration: snap);
 
       opacity: 0;
     }
@@ -246,13 +234,7 @@ $application-layout--side-nav-width-expanded: 15rem !default;
   }
 
   .l-aside {
-    @include vf-animation(
-      $property: (
-        transform,
-        box-shadow,
-      ),
-      $duration: snap
-    );
+    @include vf-transition($property: #{transform, box-shadow}, $duration: snap);
 
     box-shadow: $panel-drop-shadow;
     grid-area: main;
